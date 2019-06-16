@@ -4,8 +4,32 @@ let routeConfig = [
         "title":"vue基础",
         "menu":[
             {
-                "name":"v-if和v-html",
-                "url":baseUrl+"/1/1.html"
+                "name":"if-else-show",
+                "url":baseUrl+"/basics/v-if-else-show.html"
+            },
+            {
+                "name":"for",
+                "url":baseUrl+"/basics/v-for.html"
+            },
+            {
+                "name":"text",
+                "url":baseUrl+"/basics/v-text.html"
+            },
+            {
+                "name":"on",
+                "url":baseUrl+"/basics/v-on.html"
+            },
+            {
+                "name":"model",
+                "url":baseUrl+"/basics/v-model.html"
+            },
+            {
+                "name":"bind",
+                "url":baseUrl+"/basics/v-bind.html"
+            },
+            {
+                "name":"ohters",
+                "url":baseUrl+"/basics/ohters.html"
             },
         ]
     },
