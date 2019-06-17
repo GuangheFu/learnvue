@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World</title>
+    <script type="text/javascript" src="/assets/js/vue.js"></script>
+    <script type="text/javascript" src="/assets/js/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+    <h1>Hello World</h1>
+    <hr>
+     <div id="app">
+        {{message}}
+    </div>
+
+    <script type="text/javascript">
+        var app = new Vue({
+            el: '#app',
+            data: {
+                message: 'Hello World Vue!'
+            },
+            mounted() {
+                $("#app").html("jquery")
+            },
+            methods:{
+                add:function(){
+                    console.log("sdf")
+                }
+            }
+        })
+        app.add();
+    </script>
+</body>
+</html>

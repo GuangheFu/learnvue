@@ -103,6 +103,27 @@ let routeConfig = [
                 "url":baseUrl+"/option/extends.html"
             }
         ]
+    },
+    {
+        "title":"实力和内置组件",
+        "menu":[
+            {
+                "name":"实例属性",
+                "url":baseUrl+"/sample/attr.html"
+            },
+            {
+                "name":"实例方法",
+                "url":baseUrl+"/sample/func.html"
+            },
+            {
+                "name":"实例事件",
+                "url":baseUrl+"/sample/event.html"
+            },
+            {
+                "name":"内置组件 -slot",
+                "url":baseUrl+"/sample/slot.html"
+            }
+        ]
     }
 ]
 export{routeConfig}
