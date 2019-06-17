@@ -75,5 +75,34 @@ let routeConfig = [
 
         ]
     },
+    {
+        "title":"选项",
+        "menu":[
+            {
+                "name":"propsData Option 全局扩展的数据传递",
+                "url":baseUrl+"/option/propsData.html"
+            },
+            {
+                "name":"computed Option 计算选项",
+                "url":baseUrl+"/option/computed.html"
+            },
+            {
+                "name":"Methods Option 方法选项",
+                "url":baseUrl+"/option/methods.html"
+            },
+            {
+                "name":"Watch 选项 监控数据",
+                "url":baseUrl+"/option/watch.html"
+            },
+            {
+                "name":"Mixins 混入选项操作",
+                "url":baseUrl+"/option/mixins.html"
+            },
+            {
+                "name":"Extends Option 扩展选项",
+                "url":baseUrl+"/option/extends.html"
+            }
+        ]
+    }
 ]
 export{routeConfig}
