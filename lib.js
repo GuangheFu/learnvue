@@ -1,7 +1,7 @@
 let baseUrl = "/example";
 let routeConfig = [
     {
-        "title":"vue基础",
+        "title":"内部指令",
         "menu":[
             {
                 "name":"if-else-show",
@@ -31,6 +31,48 @@ let routeConfig = [
                 "name":"ohters",
                 "url":baseUrl+"/basics/ohters.html"
             },
+        ]
+    },
+    {
+        "title":"全局指令",
+        "menu":[
+            {
+                "name":"directive自定义指令",
+                "url":baseUrl+"/globalApi/directive.html"
+            },
+            {
+                "name":"extend扩展实列构造器",
+                "url":baseUrl+"/globalApi/extend.html"
+            },
+            {
+                "name":"set全局操作",
+                "url":baseUrl+"/globalApi/set.html"
+            },
+            {
+                "name":"生命周期",
+                "url":baseUrl+"/globalApi/lifecycle.html"
+            },
+            {
+                "name":"制作模板",
+                "url":baseUrl+"/globalApi/template.html"
+            },
+            {
+                "name":"Component 组件初时",
+                "url":baseUrl+"/globalApi/Component1.html"
+            },
+            {
+                "name":"component props属性",
+                "url":baseUrl+"/globalApi/component2.html"
+            },
+            {
+                "name":"component 父子组件关系",
+                "url":baseUrl+"/globalApi/component3.html"
+            },
+            {
+                "name":"component 标签",
+                "url":baseUrl+"/globalApi/component4.html"
+            }
+
         ]
     },
 ]
